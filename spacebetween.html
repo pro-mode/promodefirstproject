@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space between</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 25vh;
+            width: 100vw;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            padding: 20px;
+            margin-top: 20px;
+            text-transform: capitalize;
+        }
+       section{
+            background-color: blue;
+            color: white;
+            height: 5vh;
+            margin-top:10px;
+            border: 5px solid red;
+        }
+        .cantainer{
+            background-color: rgb(159, 127, 127);
+            color: aqua;
+            height: 50vh;
+            justify-content: space-between;
+        }
+        .box1{
+            background-color: red;
+            color: black;
+            width: 20vw;
+            height: 20vh;
+           float: right;
+           margin-top: 40px;
+        }
+        .box2{
+            background-color: yellow;
+            color: black;
+            width: 20vw;
+            height: 20vh;
+            float: left;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>manju</li>
+                <li>ashwini</li>
+                <li>monika</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cantainer">
+            <section>this is acontainer</section>
+
+            <div class="box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam cum pariatur earum laboriosam, iste hic facere et dolor obcaecati esse, neque, blanditiis natus perferendis cupiditate?</div>
+            <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque asperiores nulla qui quo ab nostrum quasi minima dignissimos a provident, non ducimus repellendus explicabo fugiat, optio accusamus voluptatum. Asperiores.</div>
+        </div>
+    </main>
+</body>
+</html>

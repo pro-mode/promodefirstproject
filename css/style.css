@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main-bg-color: rgb(19, 210, 227);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.logo img {
+    width: 116px;
+    padding: 19px;
+    height: 100px;
+    margin-top: -19px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    padding: 0 23px;
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a:hover {
+    /*color: rgb(46, 58, 199);*/
+    font-weight: bolder;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+
+}
+
+.Search input {
+    height: 25px;
+    width: 30vw;
+    border-radius: 5px;
+    margin-top: -15px;
+    font-weight: 900;
+    padding: 0 12px;
+
+}
+
+
+
+.btn {
+    margin-top: -13px;
+    background-color: var(--main-bg-color);
+    margin-left: 5px;
+}
+
+.Search button {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 100px - 12vh);
+}
+.slider img{
+        display: flex;
+        height: 360px;
+        width: 80vw;
+        margin: 12px auto;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+   
+    overflow-x: hidden;
+  
+    
+}
+.Card{
+    
+    width: 90vw;
+    margin: 37px auto;
+   
+}
+.Card-item{
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px;
+  margin-left: -60px;
+    
+    
+}
+.Cards{
+    display: flex;
+    overflow-x: scroll;
+  
+  align-items: center;
+}
+.Card h2{
+    font-family: "Lato", sans-serif;
+    margin: 26px;
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Lato", sans-serif;
+}

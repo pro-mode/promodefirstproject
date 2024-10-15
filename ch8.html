@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        /*.manju{
+            background-color: red;
+          transform: translate(0px , 54px) rotate(2deg);
+           transform-origin: 0;
+           transform: scale(2, 3);
+           transform: scaleX(2);
+           transform: scaleY(3);
+           height: 25vh;
+           transform: skew(2deg);
+           transform: skewX(2deg);
+           transform: skewY(2deg);}*/
+        img{
+            width: 100vw;
+            height: 3px;
+            /*transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            /*transition-delay: 6s;
+            transition-timing-function: cubic-bezier(.47,1.48,1,-0.65);*/
+            transition: width 2s ease-in-out, height 2s ease-in;
+        }
+        /*img:hover{
+           width: 150px;
+           height: 150px;*/
+            
+          /* transform: translate(9px , 54px) rotateX(5deg);
+          /* transform-origin: 0;
+           transform: scale(2, 3);
+           transform: scaleX(2);
+           transform: scaleY(3);
+           height: 25vh;
+           transform: skew(2deg);
+           transform: skewX(2deg);
+           transform: skewY(2deg);
+           transform: matrix(2);
+           
+        }*/
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>about</li>
+                <li>contact</li>
+                <li>email</li>
+            </ul>
+        </nav>
+    </header>
+   
+        
+        <div class="manju">
+            <div class="boox"> 
+                <img id="myimage" src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 "  alt="">
+        <button id="btn">xxx</button>
+    </div>
+    </div> 
+    
+    
+       
+   
+</body>
+<script>
+    myimage.style.width = '146px';
+    myimage.style.height = '3px';
+
+    btn.addEventListener("click", ()=>{ 
+        myimage.style.height = '3px';
+        if(myimage.style.width === '100vw'){
+            myimage.style.width = "146px";
+        }
+        else if(
+            myimage.style.width === '146px'
+        ){
+            myimage.style.width = "100vw";
+        }
+    })
+</script>
+</html>
